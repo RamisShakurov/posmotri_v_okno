@@ -266,10 +266,8 @@ input[type="checkbox"]:checked + span::after {
   background-color: #fff;
 }
 
-span:active::after {
+input[type="checkbox"] + span:active::after {
   content: "";
-  position: absolute;
-  inset: 4px 2px;
   display: block;
   width: 15px;
   height: 15px;
