@@ -71,7 +71,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  padding-bottom: 35px;
+  padding-bottom: 30px;
 }
 
 .content__card-link:hover {
